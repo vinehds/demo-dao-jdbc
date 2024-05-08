@@ -10,6 +10,7 @@ import java.util.Date;
 public class Program {
     public static void main(String[] args){
 
+        System.out.println("=== TESTE 01: Seller find by Id");
         SellerDao sellerDao = DaoFactory.createSellerDao();
         Seller seller = sellerDao.findById(3);
 
